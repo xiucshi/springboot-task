@@ -9,7 +9,7 @@ public class AsyncService {
     @Async
     public void asyncHello(){
         try {
-            Thread.sleep(5000);
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
